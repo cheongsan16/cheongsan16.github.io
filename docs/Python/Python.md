@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Python
-nav_order: 9
+nav_order: 8
 has_children: true
 permalink: /docs/Python
 ---
