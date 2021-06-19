@@ -1,10 +1,8 @@
 ---
-layout: post
-title:  linked list 구현
-date:   2021-05-01 01:40:29 +0300
-image:  /assets/images/blog/post-2.jpg
-author: Haeun
-tags:   java
+layout: default
+title: linked list 구현
+parent: Java
+nav_order: 6
 ---
 
 **서론**
