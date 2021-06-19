@@ -2,7 +2,7 @@
 layout: default
 title: linked list 구현
 parent: Java
-nav_order: 6
+nav_order: 1
 ---
 
 **서론**
