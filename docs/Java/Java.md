@@ -1,12 +1,12 @@
 ---
 layout: default
-title: JAVA
+title: Java
 nav_order: 3
 has_children: true
-permalink: /docs/JAVA
+permalink: /docs/Java
 ---
 
-# JAVA
+# Java
 
 자바 관련 모음
 {: .fs-6 .fw-300 }
