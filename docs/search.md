@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Search
-nav_order: 10
+nav_order: 15
 ---
 
 # Search
