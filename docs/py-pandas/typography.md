@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Typography
-parent: UI Components
+parent: Python Pandas
 nav_order: 1
 ---
 
