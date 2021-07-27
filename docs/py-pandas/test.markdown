@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Test
-parent: py-pandas
+parent: Python Pandas
 nav_order: 1
 ---
 
