@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Test
+title: 인공지능과 기계학습
 parent: AI
 nav_order: 1
 ---
 
-# Unsupervised learinng (비지도학습)
+# 인공지능
 
-비지도학습
+
