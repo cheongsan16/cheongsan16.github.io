@@ -5,6 +5,6 @@ parent: AI
 nav_order: 1
 ---
 
-# Test
+# Unsupervised learinng (비지도학습)
 
-왜 안 뜨는 것이야
+비지도학습
