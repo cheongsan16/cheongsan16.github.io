@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Book
-parent: story
+parent: Story
 nav_order: 1
 ---
 
