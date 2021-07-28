@@ -14,7 +14,7 @@ nav_order: 1
 시리즈는 데이터가 순차적으로 나열된 1차원 배열의 형태를 갖는다.<br>
 시리즈의 인덱스는 데이터 값의 위치를 나타내는 데이터 주소이다. 따라서 '인덱스1'이라는 주소를 안다면 'Data1'이라는 데이터 값에 바로 접근이 가능하다.
 
-<img src = "https://media.vlpt.us/images/dustin/post/59f9cae3-be4e-4d80-b429-6057b590d481/img1.daumcdn.png" width="400px">
+<img src = "https://media.vlpt.us/images/dustin/post/59f9cae3-be4e-4d80-b429-6057b590d481/img1.daumcdn.png" width="500px">
 
 ### 시리즈 만들기
 
