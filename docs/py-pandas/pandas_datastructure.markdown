@@ -12,4 +12,9 @@ nav_order: 1
 ## 시리즈
 
 시리즈는 데이터가 순차적으로 나열된 1차원 배열의 형태를 갖는다.
-![series](https://post-phinf.pstatic.net/MjAxOTA2MTlfMTA1/MDAxNTYwOTAyMjU5MjY4.O_lVqutdiKGIb_aOXlWXWbu7x871Ir53GxUfyHlsRuog.SyfDuQDzrQtc46hpVAuyCvuoo1J9eEr1z1HnLEnHJSMg.JPEG/mug_obj_201906190857392515.jpg?type=w1080)
+![series](https://media.vlpt.us/images/dustin/post/59f9cae3-be4e-4d80-b429-6057b590d481/img1.daumcdn.png)
+
+시리즈의 인덱스는 데이터 값의 위치를 나타내는 데이터 주소이다. 따라서 '인덱스1'이라는 주소를 안다면 'Data1'이라는 데이터 값에 바로 접근이 가능하다.
+
+### 시리즈 만들기
+
