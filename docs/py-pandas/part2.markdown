@@ -11,7 +11,7 @@ nav_order: 2
 아래 표는 판다스에서 제공하는 입출력 도구이다.
 
 |FileFormat|Reader|Writer|
-|:------:|:---:|:---:|
+|------|---|---|
 |CSV|read_csv|to_csv|
 |JSON|read_json|to_json|
 |HTML|read_html|to_html|
