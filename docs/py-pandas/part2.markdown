@@ -2,7 +2,7 @@
 layout: default
 title: 데이터 입출력
 parent: Python Pandas
-nav_order: 1
+nav_order: 2
 ---
 
 # 개요
