@@ -26,7 +26,7 @@ nav_order: 2
 
 csv 파일은 데이터 값의 열을 쉼표로 구분하고 줄바꿈으로 행을 구분한다.
 
-### CSV 파일 -> 데이터프레임
+### CSV 파일 -> 데이터프레임 : read_csv
 
 ```py
 pandas.read_csv("파일 경로")
@@ -50,24 +50,40 @@ pandas.read_csv("파일경로", index_col=None)
 pandas.read_csv("파일경로", index_col="c0")
 ```
 
-csv파일에 따라 쉼표 대신 탭이나 공백으로 텍스트를 구분하기도 한다. 이때 구분자 옵션을 변경해야 한다.
-
-**〈read_csv() 함수 옵션〉**
-
-|FileFormat|Reader|Writer|
-|------|---|---|
-|CSV|read_csv|to_csv|
-|JSON|read_json|to_json|
-|HTML|read_html|to_html|
-|Local clipboard|read_clipboard|to_clipboard|
-|MS Excel|read_excel|to_excel|
-|HDF5 Format|read_hdf|to_hdf|
-|SQL|read_sql|to_sql|
+csv파일에 따라 쉼표 대신 탭이나 공백으로 텍스트를 구분하기도 한다. 이때 구분자 옵션(sep 또는 delimiter)을 변경해야 한다.<br>
+이 외에도 names(열 이름으로 사용할 문자열 리스트), skiprows(처음 몇 줄을 건너 뛸건지 설정, 행 번호 담긴 리스트로 설정 가능) 등의 옵션들이 있다.
 
 ## JSON
 
+json파일은 데이터 공유 목적으로 개발된 특수한 파일 형식이다. 파이썬 딕셔너리와 유사한 'key : value' 구조를 갖는다.
+
+### JSON 파일 -> 데이터프레임 : read_json
+
+```py
+pandas.read_json("파일 경로")
+```
+
 ## Excel
+
+excel파일의 행과 열은 데이터프레임의 행, 열로 일대일 대응된다.
+
+### Excel 파일 -> 데이터프레임 : read_excel
+
+read_excel() 함수 사용법은 read_csv() 함수와 비슷하다. header, indec_col 등 대부분의 옵션을 그대로 사용할 수 있다.
+
+```py
+pandas.read_excel("파일 경로")
+pandas.read_excel("파일 경로", header=None)
+```
 
 # Web에서 데이터 수집하기
 
-html <table> 태그 데이터 수집하기, 웹 스크래핑(bs4), API 활용
+## HTML 웹 페이지에서 표 속성 가져오기
+
+read_html() 함수는 html 웹 페이지에 있는 <table> 태그에서 표 형식의 데이터를 모두 찾아 데이터프레임으로 변환한다. 표 데이터들은 각각 별도의 데이터프레임으로 변환되기 때문에 여러 개의 데이터프레임을 원소로 갖는 리스트가 반환된다.
+  
+```py
+pandas.read_html("url 또는 html 파일 경로")
+```
+
+## 웹 스크래핑
