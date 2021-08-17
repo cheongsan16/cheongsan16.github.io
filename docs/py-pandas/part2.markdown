@@ -53,6 +53,12 @@ pandas.read_csv("파일경로", index_col="c0")
 csv파일에 따라 쉼표 대신 탭이나 공백으로 텍스트를 구분하기도 한다. 이때 구분자 옵션(sep 또는 delimiter)을 변경해야 한다.<br>
 이 외에도 names(열 이름으로 사용할 문자열 리스트), skiprows(처음 몇 줄을 건너 뛸건지 설정, 행 번호 담긴 리스트로 설정 가능) 등의 옵션들이 있다.
 
+### 데이터프레임 -> CSV 파일 : to_csv
+
+```py
+df.to_csv("파일 이름(경로)")
+```
+
 ## JSON
 
 json파일은 데이터 공유 목적으로 개발된 특수한 파일 형식이다. 파이썬 딕셔너리와 유사한 'key : value' 구조를 갖는다.
@@ -61,6 +67,12 @@ json파일은 데이터 공유 목적으로 개발된 특수한 파일 형식이
 
 ```py
 pandas.read_json("파일 경로")
+```
+
+### 데이터프레임 -> JSON 파일 : to_json
+
+```py
+df.to_json("파일 이름(경로)")
 ```
 
 ## Excel
@@ -76,18 +88,44 @@ pandas.read_excel("파일 경로")
 pandas.read_excel("파일 경로", header=None)
 ```
 
+### 데이터프레임 -> Excel 파일 : to_excel
+
+to_excel() 함수를 사용하려면 openpyxl 라이브러리를 설치해야한다.
+
+```py
+df.to_excel("파일 이름(경로)")
+```
+
+여러 개의 데이터프레임을 하나의 Excel 파일로 저장할 수도 있다.<br>
+판다스 ExcelWriter() 함수는 Excel 워크북 객체(Excel파일)를 생성한다. 데이터프레임에 to_excel() 함수를 적용할 때 삽입하려는 워크북 객체(Excel파일)를 인자로 전달한다.
+sheet_name 옵션에 Excel 파일의 시트 이름을 입력하면 삽입되는 시트 위치를 지정할 수 있다. 시트 이름을 다르게 설정하면, 같은 Excel 파일의 서로 다른 시트에 여러 데이터프레임이 구분하여 저장된다.
+
+```py
+df1 = pandas.DataFrame(data)
+df2 = pandas.DataFrame(data)
+# data 및 과정 생략
+writer = pandas.ExcelWriter("excel 파일 경로")
+df1.to_excel(writer, sheet_name="sheet1")
+df2.to_excel(writer, sheet_name="sheet2")
+writer.save()
+```
+
 # Web에서 데이터 수집하기
 
 ## HTML 웹 페이지에서 표 속성 가져오기
+
+read_html() 함수는 html 웹 페이지에 있는 <table> 태그에서 표 형식의 데이터를 모두 찾아 데이터프레임으로 변환한다. 표 데이터들은 각각 별도의 데이터프레임으로 변환되기 때문에 여러 개의 데이터프레임을 원소로 갖는 리스트가 반환된다.
 
 ```py
 pandas.read_html("url 또는 html 파일 경로")
 ```
 
-## 웹 스크래핑
+## 웹 스크래핑, 데이터베이스 가져오기
 
-BeautifulSoup 등 웹 스크래핑 도구로 수집한 데이터를 파이썬 리스, 딕셔너리 등으로 정리한 뒤 DataFrame() 함수에 전달하여 데이터프레임으로 변환한다.
+BeautifulSoup 등 웹 스크래핑 도구로 수집한 데이터를 파이썬 리스트, 딕셔너리 등으로 정리한 뒤 DataFrame() 함수에 전달하여 데이터프레임으로 변환한다.
+
+데이터베이스에서 판다스 데이터프레임으로 변환은 read_sql() 함수를 이용하면 가능하다. 읽어온 데이터는 데이터프레임 포맷으로 저장된다.
   
+## API 활용
   
-  
-  
+대부분의 API는 csv, json, xml 등 판다스에서 쉽게 읽어올 수 있는 파일 형식을 지원한다. 따라서 API를 통해 가져온 데이터를 손쉽게 데이터프레임으로 변환할 수 있다.
