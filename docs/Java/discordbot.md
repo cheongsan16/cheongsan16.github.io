@@ -32,7 +32,7 @@ java를 사용한 팀프로젝트 경험**
 
 ## 프로젝트 내용 및 동작도
 
-
+![image](https://user-images.githubusercontent.com/57765638/133062588-c45c37f5-c439-4684-b68a-9d9a650389eb.png)
 
 ## 진행 과정
 
