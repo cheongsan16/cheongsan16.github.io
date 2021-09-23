@@ -32,7 +32,7 @@ java를 사용한 팀프로젝트 경험**
 
 ## 프로젝트 내용 및 동작도
 
-![image](![디코 플젝 발표](https://user-images.githubusercontent.com/57765638/134550860-32bd7e65-8ccf-4d12-848a-5cf46d89fe7a.png))
+(![디코 플젝 발표](https://user-images.githubusercontent.com/57765638/134550860-32bd7e65-8ccf-4d12-848a-5cf46d89fe7a.png)
 
 ## 진행 과정
 
