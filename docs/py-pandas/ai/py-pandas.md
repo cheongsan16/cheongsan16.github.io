@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Python Pandas
-nav_order: 5
+nav_order: 1
 has_children: true
-permalink: /docs/py-pandas
+permalink: /docs/ai/py-pandas
 ---
 
 # Python Pandas
