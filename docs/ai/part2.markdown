@@ -3,7 +3,7 @@ layout: default
 title: 데이터 입출력
 parent: py-pandas
 grand_parent: ai
-permalink: /docs/ui-components/code/part1/
+permalink: /docs/ui-components/code/part2/
 nav_order: 2
 ---
 
