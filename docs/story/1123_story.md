@@ -1,9 +1,9 @@
----
+<!-- ---
 layout: default
 title: 11.23
 parent: Story
 nav_order: 2
----
+--- -->
 
 # 집중이 안 되는 날엔? 글쓰기
 
