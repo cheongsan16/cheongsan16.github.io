@@ -17,4 +17,5 @@ nav_order: 4
 
 카메라 부분은 FrameLayout이고, 밑에 버튼이 두 개 있는 모양이다. FrameLayout을 카메라 프리뷰로 이용하는 코드를 작성하여 사용하였다. 두 버튼은 각각 스트리밍 시작과 캡처 버튼인데, 토스트 메시지가 나오는 정도의 기능만 구현되어있다. (캡처 버튼은 캡처를 하긴하는데, 아직은 말 그대로 캡처만 한다. 사진 저장이나.. 그런 기능은 더 추가해야함)
 
-![anroid](https://user-images.githubusercontent.com/57765638/147542368-bac9f2c4-c636-48f7-8b94-6237b863ad35.png)
+
+![anroid](https://user-images.githubusercontent.com/57765638/147544876-ab0e4b57-d033-48ee-a241-e969e0998084.png)
