@@ -2,8 +2,8 @@
 layout: default
 title: 판다스 자료구조
 parent: Python Pandas
-grand_parent: ai
-permalink: /docs/ui-components/code/part1/
+grand_parent: AI
+permalink: /docs/ai/py-pandas/part1/
 nav_order: 1
 ---
 
