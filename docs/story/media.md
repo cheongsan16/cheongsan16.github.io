@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 콘텐츠 List
-parent: story
+parent: Story
 nav_order: 1
 ---
 
