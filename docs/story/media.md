@@ -11,4 +11,4 @@ nav_order: 1
 [콘텐츠 List](https://www.notion.so/5e7b4817e5b946f39d4fb82378f3f1e1?v=82230f75cafc4d31981948ffd6591679)
 <br>
 
-<iframe src="https://www.notion.so/5e7b4817e5b946f39d4fb82378f3f1e1?v=82230f75cafc4d31981948ffd6591679" frameborder="0" width="600" height="300" scrolling="yes" marginwidth="0" marginheight="0"></iframe>
+<small>iframe으로 멋지게 페이지를 띄우고 싶었지만... 노션 페이지 검색허용을 해제해야할 것 같아서(=유료) 그냥 링크만..</small>
