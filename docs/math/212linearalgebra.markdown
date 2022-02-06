@@ -12,3 +12,5 @@ nav_order: 1
 
 - 행렬 : 철판 인데 ?
 - 벡터 : 애니메이션 만들기
+
+https://youtu.be/DU6xHP-XNS4
