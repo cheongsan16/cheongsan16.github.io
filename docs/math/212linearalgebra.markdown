@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 21-2 선형대수 프로젝트
-parent: ath
+parent: Math
 nav_order: 1
 ---
 
