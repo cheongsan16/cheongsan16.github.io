@@ -2,8 +2,8 @@
 layout: default
 title: Linked List
 parent: 22-1 자료구조
-grand_parent: AI
-permalink: /docs/ai/py-pandas/part1/
+grand_parent: Java
+permalink: /docs/Java/datastructure/linkedlist/
 nav_order: 1
 ---
 
