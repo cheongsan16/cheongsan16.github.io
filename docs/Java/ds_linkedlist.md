@@ -24,7 +24,7 @@ Main.java : 실행 클래스.
 
 #### Node.java
 
-```{java}
+```
 public class Node<E> {
 	private E item;
 	private Node<E> next;
@@ -147,6 +147,11 @@ public class Main{
 	}
 }
 ```
+
+## Double Linked List
+
+이중연결리스트<br>
+음 네 컴터로 쓸게욘
 
 ## Circular Linked List
 
