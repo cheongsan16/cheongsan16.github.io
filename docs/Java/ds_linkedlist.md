@@ -4,7 +4,7 @@ title: Linked List
 parent: 22-1 자료구조
 grand_parent: Java
 permalink: /docs/Java/datastructure/linkedlist/
-nav_order: 2
+nav_order: 3
 ---
 
 # Linked List
