@@ -1,0 +1,15 @@
+---
+layout: default
+title: Linear List
+parent: 22-1 자료구조
+grand_parent: Java
+permalink: /docs/Java/datastructure/linearlist/
+nav_order: 2
+---
+
+# Linear List
+
+선형리스트
+
+선형리스트의 단점, 어쩌구<br>
+보완하기 위해 연결리스트 등장!
