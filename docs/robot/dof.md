@@ -2,7 +2,7 @@
 layout: default
 title: Degree of Freedom
 parent: Robot
-nav_order: 1
+nav_order: 2
 ---
 
 # Degree of Freedom
