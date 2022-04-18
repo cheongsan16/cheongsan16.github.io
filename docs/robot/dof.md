@@ -7,4 +7,5 @@ nav_order: 2
 
 # Degree of Freedom
 
-자유도
+The minimum number of real-valued coordinates needed to represent the configuration<br>
+
