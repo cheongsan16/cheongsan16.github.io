@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Degree of Freedom
-parent: robot
+parent: Robot
 nav_order: 1
 ---
 
