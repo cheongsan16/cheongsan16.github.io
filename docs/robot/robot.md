@@ -9,3 +9,5 @@ permalink: /docs/robot
 # Robot
 
 로봇
+
+{: .fs-6 .fw-300 }
