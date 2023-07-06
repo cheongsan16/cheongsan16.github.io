@@ -53,8 +53,16 @@ nav_order: 3
 📌 torch에서 forward()를 구현하면 backward()는 autograd에 의해 자동 정의됨!<br>
 ![image](https://github.com/cheongsan16/cheongsan16.github.io/assets/57765638/dea8027e-39ec-472c-a2e7-a90a6f0eaca2)
 
-위와 같은 신경망 구축.<br>
-conv -> pooling -> conv -> pooling -> flatten -> linear -> relu -> linear -> relu -> linear
+위와 같은 신경망 구축.
 
-❔ flatten 이후 linear layer에 input channel이 400개인 이유..? 이전 output이 16개, 이미지 사이즈 왜 5x5?<br>
+conv -> pooling -> conv -> pooling -> flatten -> linear -> relu -> linear -> relu -> linear<br>
+❔ flatten 이후 linear layer에 input channel이 400개인 이유..? 이전 output이 16개, 이미지 사이즈 왜 5x5?
+
+**활성화 함수 (activation function)** : 가중치 편향 갱신에 사용되는 함수. 가중치가 높으려면 해당 뉴런이 더욱 활성화되어야 함!<br>
+-> 선형구조는 불가능. why? 기울기가 일정하여 미분값이 항상 상수이기 때문<br>
+-> 입력을 정규화하는 과정<br>
+-> sigmoid, relu 등
+
+**Pooling layer** : 데이터의 크기를 줄인다. -> 모델 전체의 매개변수 수를 줄일 수 있음!
+
 
