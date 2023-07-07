@@ -56,13 +56,26 @@ nav_order: 3
 위와 같은 신경망 구축.
 
 conv -> pooling -> conv -> pooling -> flatten -> linear -> relu -> linear -> relu -> linear<br>
-❔ flatten 이후 linear layer에 input channel이 400개인 이유..? 이전 output이 16개, 이미지 사이즈 왜 5x5?
+❔ flatten 이후 linear layer에 input channel이 400개인 이유..? 이전 output이 16개, 이미지 사이즈 왜 5x5? 
 
-**활성화 함수 (activation function)** : 가중치 편향 갱신에 사용되는 함수. 가중치가 높으려면 해당 뉴런이 더욱 활성화되어야 함!<br>
--> 선형구조는 불가능. why? 기울기가 일정하여 미분값이 항상 상수이기 때문<br>
--> 입력을 정규화하는 과정<br>
--> sigmoid, relu 등
+### 레이어 종류
 
+**convolution layer** : <br>
 **Pooling layer** : 데이터의 크기를 줄인다. -> 모델 전체의 매개변수 수를 줄일 수 있음!
+**flatten layer** : <br>
+**linear layer** : 
+
+### 활성화 함수
+가중치 편향 갱신에 사용되는 함수. 가중치가 높으려면 해당 뉴런이 더욱 활성화되어야 함!<br>
+-> 선형구조는 불가능. why? 기울기가 일정하여 미분값이 항상 상수이기 때문<br>
+-> 입력을 정규화하는 과정
+
+- 종류
+  sigmoid :
+  relu :
+  selu :
+  tanh :
+
+
 
 
