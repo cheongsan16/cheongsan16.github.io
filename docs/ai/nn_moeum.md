@@ -60,10 +60,11 @@ conv -> pooling -> conv -> pooling -> flatten -> linear -> relu -> linear -> rel
 
 ### 레이어 종류
 
-**convolution layer** : <br>
-**Pooling layer** : 데이터의 크기를 줄인다. -> 모델 전체의 매개변수 수를 줄일 수 있음!
-**flatten layer** : <br>
-**linear layer** : 
+**Linear layer** : 선형적인...학습...어쩌구..
+**Convolution layer** : <br>
+**Pooling layer** : 데이터의 크기를 줄인다. -> 모델 전체의 매개변수 수를 줄일 수 있음!<br>
+**Flatten layer** : 평탄화... <br>
+
 
 ### 활성화 함수
 가중치 편향 갱신에 사용되는 함수. 가중치가 높으려면 해당 뉴런이 더욱 활성화되어야 함!<br>
@@ -71,10 +72,10 @@ conv -> pooling -> conv -> pooling -> flatten -> linear -> relu -> linear -> rel
 -> 입력을 정규화하는 과정
 
 - 종류
-  sigmoid :
-  relu :
-  selu :
-  tanh :
+  sigmoid :<br>
+  relu :<br>
+  selu :<br>
+  tanh :<br>
 
 
 
