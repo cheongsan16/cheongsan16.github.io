@@ -60,7 +60,10 @@ conv -> pooling -> conv -> pooling -> flatten -> linear -> relu -> linear -> rel
 
 ### 레이어 종류
 
-**Linear layer** : 선형적인...학습...어쩌구..
+**Linear layer** : 선형 변환을 수행하는 layer. n차원의 데이터를 m차원으로 변환<br>
+ -> 피처의 범위, 연산량 변화 / 피처↑, 데이터 표현력↑, 연산량↑
+ -> 단, 성질은 그대로 : 동일한 연산 수행 시 동일한 결과 출력
+
 **Convolution layer** : <br>
 **Pooling layer** : 데이터의 크기를 줄인다. -> 모델 전체의 매개변수 수를 줄일 수 있음!<br>
 **Flatten layer** : 평탄화... <br>
